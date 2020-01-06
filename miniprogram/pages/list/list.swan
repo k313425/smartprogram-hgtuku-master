@@ -1,0 +1,32 @@
+<!--miniprogram/pages/list/list.wxml-->
+<wxs module="util" src="../common/lib/util.wxs"></wxs>
+
+<view class="types-wrap">
+  <tab id="category" tab-data="{{categoryMenu}}" tab-cur="{{categoryCur}}" size="{{80}}" bindchange="toggleCategory">
+  </tab>
+</view>
+
+<swiper current="{{categoryCur}}" duration="{{duration}}" bindanimationfinish="swipeChange">
+  <swiper-item s-for="item, index in categoryData" s-key="index">
+    <scroll requesting="{{item.requesting}}" end="{{item.end}}" empty-show="{{item.emptyShow}}" list-count="{{item.listData.length}}" has-top="{{true}}" refresh-size="{{80}}" bindrefresh="refresh" bindmore="more">
+      <view class="types-zuopin">
+        <view class="types-zuopin-li" s-for="item, index in item.listData" s-key="index">
+          <navigator url="/pages/detail/detail?id={{util.sub(item.passtime, 0, 4)}}&title={{item.title}}&time={{item.passtime}}&image={{item.image}}">
+            <image class="types-zuopin-img" mode="aspectFill" src="{{item.image}}"></image>
+          </navigator>
+          <view class="types-zuopin-title">{{item.title}}</view>
+          <view class="types-zuopin-cnt">
+            <view class="types-zuopin-author">{{util.sub(item.title, 0, 4)}}</view>
+            <view class="types-zuopin-lovenum" data-index="{{index}}" data-id="{{util.sub(item.passtime, 0, 4)}}" bindtap="zpLike">
+              <text class="types-zuopin-love {{item.path}}"></text>
+              <text class="types-zuopin-num">{{util.sub(item.passtime, 0, 4)}}</text>
+            </view>
+            <navigator url="/pages/detail/detail?id={{util.sub(item.passtime, 0, 4)}}">
+              <image class="types-zuopin-head" mode="aspectFill" src="{{item.image}}"></image>
+            </navigator>
+          </view>
+        </view>
+      </view>
+    </scroll>
+  </swiper-item>
+</swiper>

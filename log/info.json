@@ -1,0 +1,119 @@
+[
+    {
+        "type": "transform function call arg name",
+        "file": "E:/wwwroot/smartprogram-hgtuku-master/miniprogram/app.js",
+        "row": 6,
+        "column": 9,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "E:/wwwroot/smartprogram-hgtuku-master/miniprogram/app.js",
+        "row": 9,
+        "column": 6,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "E:/wwwroot/smartprogram-hgtuku-master/miniprogram/components/scroll/index.js",
+        "row": 122,
+        "column": 8,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "E:/wwwroot/smartprogram-hgtuku-master/miniprogram/components/scroll/index.js",
+        "row": 199,
+        "column": 26,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "E:/wwwroot/smartprogram-hgtuku-master/miniprogram/components/tab/index.js",
+        "row": 107,
+        "column": 28,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "E:/wwwroot/smartprogram-hgtuku-master/miniprogram/pages/index/index.js",
+        "row": 42,
+        "column": 4,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "E:/wwwroot/smartprogram-hgtuku-master/miniprogram/pages/index/index.js",
+        "row": 84,
+        "column": 4,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "E:/wwwroot/smartprogram-hgtuku-master/miniprogram/pages/list/list.js",
+        "row": 51,
+        "column": 4,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "E:/wwwroot/smartprogram-hgtuku-master/miniprogram/pages/login/login.js",
+        "row": 43,
+        "column": 6,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "E:/wwwroot/smartprogram-hgtuku-master/miniprogram/pages/login/login.js",
+        "row": 47,
+        "column": 6,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "E:/wwwroot/smartprogram-hgtuku-master/miniprogram/pages/login/login.js",
+        "row": 51,
+        "column": 6,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "E:/wwwroot/smartprogram-hgtuku-master/miniprogram/pages/login/login.js",
+        "row": 61,
+        "column": 6,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    },
+    {
+        "type": "transform function call arg name",
+        "file": "E:/wwwroot/smartprogram-hgtuku-master/miniprogram/pages/user/user.js",
+        "row": 50,
+        "column": 4,
+        "before": "wx",
+        "after": "swan",
+        "message": "只转换了上下文, wx ==> swan"
+    }
+]
