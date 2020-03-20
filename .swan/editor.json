@@ -1,14 +1,19 @@
 {
     "editor": {
-        "curPath": "E:\\wwwroot\\smartprogram-hgtuku-master\\project.config.json",
-        "expands": [],
+        "curPath": "E:\\wwwroot\\smartprogram-hgtuku-master\\project.swan.json",
+        "expands": [
+            "E:\\wwwroot\\smartprogram-hgtuku-master\\pages\\index"
+        ],
         "markdownUploadTimeMap": {},
         "paths": [
-            "E:\\wwwroot\\smartprogram-hgtuku-master\\project.config.json"
+            "E:\\wwwroot\\smartprogram-hgtuku-master\\pages\\index\\index.swan",
+            "E:\\wwwroot\\smartprogram-hgtuku-master\\project.swan.json"
         ],
         "recentlyFiles": [
-            "E:\\wwwroot\\smartprogram-hgtuku-master\\project.config.json",
-            "E:\\wwwroot\\smartprogram-hgtuku-master\\smartprogram\\app.json"
+            "E:\\wwwroot\\smartprogram-hgtuku-master\\project.swan.json",
+            "E:\\wwwroot\\smartprogram-hgtuku-master\\pages\\index\\index.swan",
+            "E:\\wwwroot\\smartprogram-hgtuku-master\\README.md",
+            "E:\\wwwroot\\smartprogram-hgtuku-master\\project.config.json"
         ]
     }
 }

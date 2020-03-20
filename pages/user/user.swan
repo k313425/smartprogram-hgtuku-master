@@ -1,5 +1,5 @@
 <!--miniprogram/pages/user/user.wxml-->
-<wxs module="util" src="../common/lib/util.wxs"></wxs>
+<wxs module="util" src="../common/lib/util.filter.js"></wxs>
 
 <view class="daren-info">
   <view class="daren-info-img">
@@ -37,7 +37,7 @@
       <image mode="aspectFill" src="{{item.image}}"></image>
     </navigator>
   </view>
-  
+
   <view class="scroll-empty" s-if="item.listData.length === 0">
     <text class="empty-tip">暂无相关数据~</text>
   </view>

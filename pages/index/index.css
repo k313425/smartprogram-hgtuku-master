@@ -83,7 +83,7 @@ swiper image {
   color: #999;
   line-height: 50rpx;
 }
-.index-shi .index-shi-title navigator {
+.index-shi .index-shi-title swan-nav {
   display: block;
   float: right;
   padding: 0 30rpx;
@@ -107,7 +107,7 @@ swiper image {
   height: 350rpx;
   border-radius: 10rpx;
 }
-.index-article .sub navigator {
+.index-article .sub swan-nav {
   padding-right: 30rpx;
   display: inline-block;
   flex-shrink: 0;
@@ -157,7 +157,7 @@ swiper image {
   padding-left: 30rpx;
   line-height: 100rpx;
 }
-.index-article .ttl navigator {
+.index-article .ttl swan-nav {
   display: block;
   float: right;
   padding: 0 30rpx;

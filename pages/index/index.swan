@@ -1,6 +1,6 @@
 <import src="/pages/common/head.swan" />
 <import src="/pages/common/foot.swan" />
-<wxs module="util" src="../common/lib/util.wxs"></wxs>
+<wxs module="util" src="../common/lib/util.filter.js"></wxs>
 <!--index.wxml-->
 <view class="container">
     <!-- <template is="head" data="{{title: 'button',desc: 'button'}}" /> -->
